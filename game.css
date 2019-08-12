@@ -5,13 +5,16 @@
 	margin: 0;
 	padding: 0;
 }
-html, body { 
-	height: 100%; 
+
+html,
+body {
+	height: 100%;
 	width: 100%;
 }
-.main{
-	height:100vh;
-	width:100vw;
+
+.main {
+	height: 100vh;
+	width: 100vw;
 	background-color: red;
 	background-image: linear-gradient(#ED213A, #93291E);
 }
@@ -20,11 +23,12 @@ html, body {
 	text-align: center;
 	color: #3b5998;
 }
+
 .game {
-    width: 70%;
-    position:absolute;
-    left: 15%;
-	top:30%;
+	width: 70%;
+	position: absolute;
+	left: 15%;
+	top: 30%;
 	background: #F3F3F3;
 	border-radius: 5px;
 }
@@ -81,8 +85,8 @@ html, body {
 	width: 45%;
 	background: #fff;
 	outline: 0;
-    border: 1px solid #e5e5e5;
-    cursor: pointer;
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
 	border-radius: 5px;
 	color: #696969;
 }
@@ -113,12 +117,13 @@ html, body {
 }
 
 .modal-header,
-.modal-body{
+.modal-body {
 	display: flex;
 	justify-content: center;
 	padding: 30px;
 }
-.modal-footer{
+
+.modal-footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
