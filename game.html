@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+   <head>
+      <title>
+         Color game
+      </title>
+      <link rel="stylesheet" href="./game.css"/>
+   </head>
+   <body>
+      <div class="main">
+         <section>
+            <div class="game">
+               <div class="time-score">
+                  <div class="time"><span class="timer">00:00:00</span> / <span>00:00:30</span></div>
+                  <div class="name"><span class="username"></span></div>
+                  <div class="score-div"><span>Score : </span> <span class="score">0</span></div>
+               </div>
+               <div class="color-labels"></div>
+               <div class="answer-buttons">
+                  <button class="btn answer-button" data-value="false">NO</button>
+                  <button class="btn answer-button" data-value="true">YES</button>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="modal">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h1 class="time-over">Time Over</h1>
+                  </div>
+                  <div class="modal-body">
+                     <h2>Your score is <span class="modal-score"></span></h2>
+                  </div>
+                  <div class="modal-footer">
+                     <button class="btn reset-button">RESTART GAME</button>
+                     <button class="btn high-score-button">VIEW SCORES</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <script src="./game.js"></script>
+   </body>
+</html>
